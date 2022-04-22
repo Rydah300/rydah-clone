@@ -165,7 +165,7 @@ def mb():
 		pak()
 	elif bm =='2':
 	    os.system('rm -rf $HOME/B4_Rydah')
-	    os.system('cd $HOME && git clone https://github.com/Rydah300/rydah-clone')
+	    os.system('cd $HOME/Rydah && git clone https://github.com/Rydah300/rydah-clone')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
