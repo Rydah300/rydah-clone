@@ -122,7 +122,7 @@ def menu():
 	try:
 		tb=open('token.txt','r').read()
 	except IOError:
-		print (R + 'Token Invalid !')
+		print (R + 'Error Token !')
 		trb()
 		t()
 		login()
@@ -146,8 +146,8 @@ def menu():
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update Rydahclone Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' Rydahclone WhatsApp Group')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_BALOCH Tool')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' B4_BALOCH WhatsApp Group')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
@@ -164,8 +164,8 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/Rydah')
-	    os.system('cd $HOME/Rydah && git clone https://github.com/Rydah300/rydah-clone')
+	    os.system('rm -rf $HOME/B4_AFRID')
+	    os.system('cd $HOME && git clone https://github.com/Rydah300/rydah-clone')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
@@ -180,11 +180,11 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
 	    psb('WhatsApp Num 09017624430✓')
-	    psb('WellCome To Rydah TM')
-	    psb('Congratulations Rydah TM Tool Has Been Updated Successfully')
+	    psb('WellCome To RydahTM')
+	    psb('Congratulations Rydah Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ Rydah✓')
-	    psb('🔓Password ☆ Rydah Tm✓')
-	    psb('Subscrib My Youtube Channel RydahTm ✓')
+	    psb('🔓Password ☆ TM✓')
+	    psb('Subscrib My Youtube Channel B4 Rydah M4 TM ✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
 	    os.system('cd $HOME/Rydah && python2 TM.py')
@@ -208,7 +208,7 @@ def pak():
 	try:
 		tb=open('token.txt','r').read()
 	except IOError:
-		print (R + ' Invalid Token !')
+		print (R + ' Error Token !')
 		trb()
 		t()
 		login()
@@ -357,6 +357,6 @@ def pb():
 	print(S+'Mafia Miller')     
 	print
 	raw_input(R + 'Mafia')
-	os.system('python2 B4.py')
+	os.system('python2 TM.py')
 if __name__=='__main__':
     login()
