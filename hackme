@@ -164,7 +164,7 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/B4_Rydah')
+	    os.system('rm -rf $HOME/Rydah')
 	    os.system('cd $HOME/Rydah && git clone https://github.com/Rydah300/rydah-clone')
 	    cb()
 	    print (logo)
@@ -184,7 +184,7 @@ def mb():
 	    psb('Congratulations Rydah TM Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ Rydah✓')
 	    psb('🔓Password ☆ Rydah Tm✓')
-	    psb('Subscrib My Youtube Channel B4 AFRID M4 AFRID ✓')
+	    psb('Subscrib My Youtube Channel RydahTm ✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
 	    os.system('cd $HOME/Rydah && python2 TM.py')
